@@ -4,14 +4,9 @@
 
 clear all
 set scheme lean1
-*glo dropbox="C:\Users\fernando\Dropbox"
-*glo dropbox="C:\Users\androdri\Dropbox\Salud Colombia"
-*glo dropbox="C:\Users\PaulAndrés\Dropbox\Salud Colombia"
-glo dropbox="C:\Users\paul.rodriguez\Dropbox\Salud Colombia"
-glo mainFolder="$dropbox/Dengue"
+glo mainFolder="D:\Mis Documentos\git\DengueBehavioural"
 
-do "$mainFolder/do/0.Programs.do"
-cd "$mainFolder/output/tablas/"
+do "$mainFolder/0.Programs.do"
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////

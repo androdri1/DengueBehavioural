@@ -6,12 +6,11 @@ set niceness 0
 set min_memory 1.5g
 
 
-glo dropbox="C:/Dropbox"
-*glo dropbox="C:\Users\PaulAndrés\Dropbox"
+glo mainFolder="D:\Mis Documentos\git\DengueBehavioural"
 
-glo mainFolder="$dropbox/Dengue"
 
-do "$mainFolder/do/0.Programs.do"
+do "$mainFolder/0.Programs.do"
+cd "$mainFolder/output/tablas/"
 
 * Let's split schools in:
 

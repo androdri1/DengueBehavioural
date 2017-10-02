@@ -1,0 +1,2 @@
+# Base Do-files
+In this folder you find do-files that cannot be runned with the datasets available in this repository. The reasons are that some of the datasets como directly from INS or ICFES  (so they should be requested directly to them), and their relevant information is already included in the main datasets included in the repository.

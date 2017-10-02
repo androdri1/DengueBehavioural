@@ -4,13 +4,10 @@
 
 clear all
 set scheme lean1
-*glo dropbox="C:\Users\fernando\Dropbox"
-*glo dropbox="C:\Users\androdri\Dropbox\Salud Colombia"
-*glo dropbox="C:\Users\PaulAndrés\Dropbox\Salud Colombia"
-glo dropbox="C:\Users\paul.rodriguez\Dropbox\Salud Colombia"
-glo mainFolder="$dropbox/Dengue"
+glo mainFolder="D:\Mis Documentos\git\DengueBehavioural"
 
-do "$mainFolder/do/0.Programs.do"
+
+do "$mainFolder/0.Programs.do"
 cd "$mainFolder/output/tablas/"
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -94,14 +91,13 @@ cd  "$mainFolder/output/tablas"
 		tex \end{table}
 		tex }
 	}
-	
-	log on
+
 		disp in red "Dependent variable: number of test takers"
 		est replay r1b1 
 		est replay r11 
 		est replay r3b1 
 		est replay r31
-	log off
+
 	
 
 }

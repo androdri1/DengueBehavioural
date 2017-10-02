@@ -1,0 +1,70 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{table}[H]
+\scriptsize
+\centering
+\caption{Determinants of Severe Dengue Incidence (cases per 10.000h in the 2010 calendar year) \label{determinantsSevere}}
+\begin{tabular}{l*{7}{c}}
+\toprule
+&             & \multicolumn{3}{c}{Below 2000 masl } & \multicolumn{1}{c}{Below 1000 masl } & \multicolumn{1}{c}{1000-2000 masl } \\
+\cmidrule(lr){3-5} \cmidrule(lr){6-6} \cmidrule(lr){7-7}
+& $ \bar{X} $ & (1) & (2) & (3) & (4) & (5) \\
+\midrule
+\parbox[c]{6cm}{\raggedright Altitude x (year=2010) } &  89.860  & $  0.0005 ^{***} $  & $ -0.0004  $  & $ -0.0004 ^{**} $  & $  0.0034 ^{***} $  & $ -0.0065 ^{***} $  \\
+&  & $ ( 0.0002) $  & $ ( 0.0002) $  & $ ( 0.0002) $  & $ ( 0.0011) $  & $ ( 0.0016) $  \\
+\addlinespace[1pt]
+\parbox[c]{6cm}{\raggedright Avg. 2m temperature (C), last 12 months (Aug) } &  19.800  & $ -0.7638 ^{***} $  & $ -0.7921 ^{***} $  & $ -0.3952 ^{***} $  & $ -0.7673 ^{***} $  & $ -0.8761 ^{***} $  \\
+&  & $ ( 0.0736) $  & $ ( 0.0735) $  & $ ( 0.0832) $  & $ ( 0.0784) $  & $ ( 0.1355) $  \\
+\addlinespace[1pt]
+\parbox[c]{6cm}{\raggedright Avg. Precipitation (mm)*100, last 12 months (Aug) } &   0.528  & $ -3.4004 ^{***} $  & $ -2.9169 ^{***} $  & $ -2.3260 ^{***} $  & $ -1.3342 ^{*} $  & $ -3.6475 ^{***} $  \\
+&  & $ ( 0.6158) $  & $ ( 0.5819) $  & $ ( 0.5320) $  & $ ( 0.7089) $  & $ ( 1.1033) $  \\
+\addlinespace[1pt]
+\parbox[c]{6cm}{\raggedright NBI Poverty Index x (year=2010) } &   3.492  & $   $  & $ -0.0650 ^{***} $  & $ -0.0327 ^{***} $  & $ -0.0352 ^{***} $  & $ -0.0735 ^{***} $  \\
+&  & $  $  & $ ( 0.0119) $  & $ ( 0.0113) $  & $ ( 0.0080) $  & $ ( 0.0281) $  \\
+\addlinespace[1pt]
+\parbox[c]{6cm}{\raggedright Certified x (year=2010) } &   0.034  & $   $  & $  0.0014  $  & $  0.4011  $  & $  0.1099  $  & $  0.0771  $  \\
+&  & $  $  & $ ( 0.4101) $  & $ ( 0.3769) $  & $ ( 0.3895) $  & $ ( 0.7313) $  \\
+\addlinespace[1pt]
+\parbox[c]{6cm}{\raggedright Year = 2009 } &   0.077  & $  0.6770 ^{***} $  & $  0.6906 ^{***} $  & $  0.4470 ^{***} $  & $  0.9570 ^{***} $  & $  0.0476  $  \\
+&  & $ ( 0.1199) $  & $ ( 0.1200) $  & $ ( 0.1041) $  & $ ( 0.1373) $  & $ ( 0.2364) $  \\
+\addlinespace[1pt]
+\parbox[c]{6cm}{\raggedright Year = 2010 } &   0.077  & $  2.1203 ^{***} $  & $  5.8752 ^{***} $  & $  2.6510 ^{***} $  & $  3.1655 ^{***} $  & $ 15.4000 ^{***} $  \\
+&  & $ ( 0.2070) $  & $ ( 0.8968) $  & $ ( 0.8629) $  & $ ( 0.7154) $  & $ ( 3.8813) $  \\
+\addlinespace[1pt]
+\parbox[c]{6cm}{\raggedright Year = 2011 } &   0.077  & $  0.1627 ^{**} $  & $  0.1393 ^{*} $  & $ -0.1163  $  & $  0.1466 ^{**} $  & $  0.0420  $  \\
+&  & $ ( 0.0765) $  & $ ( 0.0774) $  & $ ( 0.1003) $  & $ ( 0.0715) $  & $ ( 0.1954) $  \\
+\addlinespace[1pt]
+\parbox[c]{6cm}{\raggedright Year = 2012 } &   0.077  & $ -0.0062  $  & $ -0.0174  $  & $ -0.2064 ^{***} $  & $ -0.0395  $  & $  0.0008  $  \\
+&  & $ ( 0.0514) $  & $ ( 0.0520) $  & $ ( 0.0606) $  & $ ( 0.0500) $  & $ ( 0.1090) $  \\
+\addlinespace[1pt]
+\parbox[c]{6cm}{\raggedright Classic Dengue per 1000h, Cal Y } &   0.441  & $   $  & $   $  & $  0.4994 ^{***} $  & $   $  & $   $  \\
+&  & $  $  & $  $  & $ ( 0.0816) $  & $  $  & $  $  \\
+\addlinespace[1pt]
+\addlinespace[2pt]
+\midrule
+\parbox[c]{6cm}{N Observations} &  &    5118  &    5022  &    5022  &    2826  &    2166  \\
+\parbox[c]{6cm}{N Clusters (Departments)} &  &     853  &     837  &     837  &     471  &     361  \\
+\parbox[c]{6cm}{ Adjusted $ R^2 $ } &  &   0.114  &   0.139  &   0.254  &   0.177  &   0.184  \\
+\bottomrule
+\multicolumn{7}{l}{\parbox[l]{18cm}{$ \dagger$ Linear panel fixed effects regression at municipality level with Severe Dengue Incidence (10.000 cases per hab., calendar year) as a dependent. }} \\
+\multicolumn{7}{l}{\parbox[l]{18cm}{  Certified municipalities are those who are able to determine how they spend part of their education and/or certain health care resources according to previous performance assessments by Central Government. For those non-certified, such expenses are controlled directly by the departmental authorities. This classification depends on population size and on some administrative quality indicators. The NBI is a government multidimensional poverty index which considers quality of life and access to public goods. A summary of the variables included in this table is presented in Table \ref{tab:descriptives}. }} \\
+\multicolumn{7}{l}{\parbox[l]{18cm}{Robust standard errors in parenthesis. Significance: * 10\%, ** 5\%, *** 1\%. }} \\
+\end{tabular}
+\end{table}
+}
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{table}[H]
+\centering
+\scriptsize
+\caption{Number of test takers per school and Dengue Incidence \label{tableSchool_main}}
+\begin{tabular}{l*{9}{c}}
+\toprule
+& \multicolumn{4}{l}{ LOG(Number of students who presented the test) } & \multicolumn{4}{l}{\parbox[c]{5cm}{ LOG(Number of schools per municipality with at least 1 SABER 11 test taker) }} \\
+\cmidrule(l){2-5}  \cmidrule(l){6-9}
+\bottomrule
+\multicolumn{9}{l}{\parbox[l]{15cm}{Linear fixed effects panel regression at school level (see Equation \ref{eq:feSaberStu}). S. Dengue is the reported incidence of Severe Dengue in the last 4 months (4M) at municipality level and C. Dengue is the incidence of Classic Dengue at the same level. L.S. Dengue and L.C. Dengue are the lag of Severe and Classic Dengue, respectively. On top of the fixed effects by school and by year, these controls for Inpatient beds and AE positions per 10.000h, Subsidized Health Care registry as a percentage of Population, municipality dependence on central government transfers, municipality per capita income, the incidence rate of influenza-like cases per 1.000h in the municipality during the calendar year, avg. temperature and rainfall for the last 8 months, log-population and the standardized number of people, houses and roads affected by natural disasters. See Table \ref{tab:descriptives} for further details.}} \\
+\multicolumn{9}{l}{Clustered at municipality level SD in parenthesis. Significance: * 10\%, ** 5\%, *** 1\%. } \\
+\end{tabular}
+\end{table}
+}

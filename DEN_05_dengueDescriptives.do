@@ -7,14 +7,9 @@
 
 clear all
 
-glo mainFolder="C:\Dropbox\Dengue"
-*glo mainFolder="C:\Users\PaulAndrés\Dropbox\Dengue"
-glo mainFolder="C:\Users\androdri\Dropbox\Dengue"
+glo mainFolder="D:\Mis Documentos\git\DengueBehavioural"
 
-glo datosDHS="C:\data\DHS"
-*glo datosDHS="C:\Datos\DHS"
-
-do "$mainFolder/do/0.Programs.do"
+do "$mainFolder/0.Programs.do"
 
 glo genOpts="  graphregion(color(white) lwidth(medium)) "
 
